@@ -1,6 +1,6 @@
-package telran.java48.forum.dto;
+package telran.java48.post.dto;
 
-import java.time.LocalDate;
+import java.time.LocalDateTime;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -14,6 +14,6 @@ import lombok.NoArgsConstructor;
 public class CommentDto {
 	String user;
     String message;
-    LocalDate dataCreated;
-    Long likes;
+    LocalDateTime dateCreated;
+    Integer likes;
 }
